@@ -7,3 +7,8 @@
 (scroll-bar-mode -1)
 
 (mac-auto-operator-composition-mode t)
+
+(setq flycheck-indication-mode nil)
+
+(global-prettify-symbols-mode +1)
+
