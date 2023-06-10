@@ -1,8 +1,8 @@
-(setq initial-frame-alist '((top . 36) (left . 118) (width . 220) (height . 60)))
+(setq initial-frame-alist '((top . 36) (left . 118) (width . 220) (height . 56)))
 
 (setq prelude-theme 'nord)
 
-(set-frame-font "JetBrains Mono-12" nil t)
+(set-frame-font "Iosevka-13" nil t)
 
 (scroll-bar-mode -1)
 

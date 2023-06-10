@@ -35,6 +35,11 @@
 ;; Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
 
+;;; Custom packages:
+
+;; nord-theme
+;; rg
+
 ;;; Code:
 
 ;;; Uncomment the modules you'd like to use and restart Prelude afterwards
