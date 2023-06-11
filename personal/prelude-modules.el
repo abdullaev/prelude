@@ -76,7 +76,7 @@
 ;; (require 'prelude-fsharp)
 ;; (require 'prelude-go)
 ;; (require 'prelude-haskell)
-;; (require 'prelude-js)
+(require 'prelude-js)
 ;; (require 'prelude-latex)
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
 ;; (require 'prelude-literate-programming) ;; Setup for Literate Programming
