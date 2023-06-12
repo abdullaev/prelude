@@ -5,3 +5,5 @@
 
 (diff-hl-margin-mode t)
 
+(setq whitespace-line-column 200)
+
