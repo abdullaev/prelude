@@ -1,6 +1,6 @@
 (setq initial-frame-alist '((top . 36) (left . 118) (width . 220) (height . 56)))
 
-(setq prelude-theme 'nord)
+(setq prelude-theme 'doom-nord)
 
 (set-frame-font "Iosevka-13" nil t)
 
@@ -12,3 +12,6 @@
 
 (global-prettify-symbols-mode +1)
 
+(doom-modeline-mode 1)
+
+(setq doom-modeline-bar-width 7)
