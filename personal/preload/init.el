@@ -15,3 +15,10 @@
 (doom-modeline-mode 1)
 
 (setq doom-modeline-bar-width 7)
+
+(setq inhibit-compacting-font-caches t)
+
+(setq redisplay-dont-pause t)
+
+(setq gc-cons-threshold 100000000)
+
