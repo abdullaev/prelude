@@ -7,3 +7,5 @@
 
 (setq whitespace-line-column 200)
 
+(require 'flycheck-clj-kondo)
+
