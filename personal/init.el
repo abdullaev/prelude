@@ -9,3 +9,8 @@
 
 (require 'flycheck-clj-kondo)
 
+(setq redisplay-dont-pause t
+  scroll-margin 4
+  scroll-step 1
+  scroll-conservatively 10
+  scroll-preserve-screen-position 1)
