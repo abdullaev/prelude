@@ -1,3 +1,11 @@
+;; custom packages:
+;;
+;; rg
+;; doom-themes
+;; doom-modeline
+;; flycheck-clj-kondo
+;; company-box
+
 (setq prelude-guru nil)
 
 (setq diff-hl-margin-symbols-alist
@@ -26,5 +34,11 @@
 (setq company-auto-commit nil)
 (setq company-box-doc-enable nil)
 (setq company-box-show-single-candidate 'never)
+
+(setq inhibit-compacting-font-caches t)
+
+(setq redisplay-dont-pause t)
+
+(setq gc-cons-threshold 100000000)
 
 (add-hook 'company-mode-hook 'company-box-mode)
