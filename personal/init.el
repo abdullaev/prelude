@@ -6,22 +6,16 @@
 ;; flycheck-clj-kondo
 ;; company-box
 
-(setq prelude-guru nil)
-
-(setq diff-hl-margin-symbols-alist
-      '((insert . " ") (delete . " ") (change . " ")))
-
-(diff-hl-margin-mode t)
-
-(setq whitespace-line-column 200)
-
 (require 'flycheck-clj-kondo)
 
-(setq redisplay-dont-pause t
-  scroll-margin 5
-  scroll-step 1
-  scroll-conservatively 10
-  scroll-preserve-screen-position 1)
+(setq gc-cons-threshold 100000000)
+
+(setq inhibit-compacting-font-caches t)
+
+(setq scroll-margin 5
+      scroll-step 1
+      scroll-conservatively 100000
+      scroll-preserve-screen-position 1)
 
 (setq company-minimum-prefix-length 1)
 (setq company-idle-delay 0.05)
@@ -35,10 +29,13 @@
 (setq company-box-doc-enable nil)
 (setq company-box-show-single-candidate 'never)
 
-(setq inhibit-compacting-font-caches t)
+(setq prelude-guru nil)
 
-(setq redisplay-dont-pause t)
+(setq whitespace-line-column 240)
 
-(setq gc-cons-threshold 100000000)
+(setq diff-hl-margin-symbols-alist
+      '((insert . " ") (delete . " ") (change . " ")))
+
+(diff-hl-margin-mode t)
 
 (add-hook 'company-mode-hook 'company-box-mode)
