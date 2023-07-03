@@ -5,6 +5,7 @@
 ;; doom-modeline
 ;; flycheck-clj-kondo
 ;; company-box
+;; geiser-guile
 
 (require 'flycheck-clj-kondo)
 
