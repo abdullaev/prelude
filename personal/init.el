@@ -37,6 +37,11 @@
 (setq diff-hl-margin-symbols-alist
       '((insert . " ") (delete . " ") (change . " ")))
 
+(setq magit-diff-refine-hunk 'all)
+
 (diff-hl-margin-mode t)
 
 (add-hook 'company-mode-hook 'company-box-mode)
+
+(custom-set-faces
+ `(magit-diff-context-highlight ((t (:background ,(doom-color 'base2))))))
